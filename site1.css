@@ -1,0 +1,180 @@
+
+/**********************************************************/
+.home{
+	height: 800px;
+	background:url('Mame.jpg');
+	display: flex;
+}
+.home .max-width{
+	color: black;
+	margin: auto 120px;
+}
+
+.home .max-width .text-1{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.home .max-width .text-2{
+	font-size: 60px;
+	font-weight: 500;
+	color: blue;
+	}
+.home .max-width .text-3{
+	font-size: 50px;
+	font-weight: 500;
+
+}
+.home .max-width .text-3 span{
+	color: red;
+}
+.home .max-width .button-one{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: blue;
+	border:2px solid blue;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+
+
+}
+.home .max-width .button-one:hover{
+	background:none;
+}
+/********************************************************/
+.about .title1{
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline blue; 
+	margin-bottom: 100px;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 100px ;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: blue;
+}
+.about .div-right .text span{
+	color: blue;
+}
+.about .div-right  p{
+	text-align: justify;
+	font-size: 20px;
+
+}
+.about .div-right a{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: blue;
+	border:2px solid blue;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.about .div-right a:hover{
+	background:none;
+	color: blue;
+
+}
+.sec .sec-content img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	border: 2px solid;
+	margin-top: 30px;
+	position: relative;
+}
+.sec .sec-content table{
+	height: 300px;
+}
+.sec .sec-content th{
+	width: 33%;
+	background-color: #E52444;
+}
+.sec .tit{
+      font-size: 20px;
+      font-weight: 200;
+      font-style: center;
+      font-family: arial black;
+}
+.sec .title{
+	font-size: 10px;
+      font-weight: 200;
+      font-style: center;
+      color: #E52444;
+      font-family: arial black;
+}
+.sec .title3{
+	 font-size: 20px;
+      font-weight: 200;
+      font-style: center;
+      font-family: arial black;
+}
+.td1{
+	background-color: green;
+	width: 250px;
+	border: 10px;
+}
+.ks{
+	border-radius: 100%;
+	width: 60%;
+	color: red;
+	border: 3px solid blue; 
+}
+.na{
+	width: 99%;
+	position: fixed;
+	background-color: blue;
+	border-radius: 10px;
+}
+.div1{width:100%;
+background-color: green; 
+}
+.id{
+	color: green;
+	border-radius: 5px;
+	background-color: green;
+}
+.dok{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.dok .menu{
+	width: 40px;
+	height: 6px;
+	margin: 6px 0px;
+	background: black;
+	color: grey;
+}
+.color{
+	color: white;
+	background-color: black;
+}
